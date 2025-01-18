@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "dcproject-client-feedback-portal",
+  "description": "client feedback portal",
+  "authors": "author",
+  "version": "1.0.0",
+  "main": "pathToMain",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "mongoose": "8.9.5",
+    "react-router-dom": "7.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "nodemon server.js",
+    "client": "cd frontend && npm start"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
+}
