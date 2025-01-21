@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
-    <div class="admin-container">
-        <h1>Admin Dashboard</h1>
-        <canvas id="feedbackChart" width="400" height="200"></canvas>
-        <button id="exportPDF">Export as PDF</button>
-        <button id="exportExcel">Export as Excel</button>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="assets/js/admin.js"></script>
+  <div id="stats"></div>
+  <script src="../assets/js/admin.js"></script>
+
+<body>
+  <h1>Feedback Statistics</h1>
+  <div id="stats">
+    <!-- Feedback Data -->
+    <table id="feedbackTable">
+      <thead>
+        <tr>
+          <th>User</th>
+          <th>Feedback</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>vivek iyer</td>
+          <td>Great service!</td>
+          <td>2025-01-21</td>
+        </tr>
+        <tr>
+          <td>chetana sandu</td>
+          <td>Excellent quality!</td>
+          <td>2025-01-20</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Export Buttons -->
+  <button id="exportPdf">Export as PDF</button>
+  <button id="exportExcel">Export as Excel</button>
+
+  <script src="../assets/js/admin.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.2/xlsx.full.min.js"></script>
 </body>
 </html>
