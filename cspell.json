@@ -1,0 +1,27 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "chetana",
+        "craco",
+        "Cves",
+        "dcproject",
+        "Feedbackcontroller",
+        "Infotech",
+        "iyer",
+        "libc",
+        "officedocument",
+        "opencollective",
+        "openxmlformats",
+        "sandu",
+        "spreadsheetml",
+        "untranspiled",
+        "vivek"
+    ],
+    "ignoreWords": [
+        "Suryakala"
+    ],
+    "import": []
+}
